@@ -1,0 +1,1296 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Monserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Monserrat', sans-serif;
+    background-color: #F5EFE6;
+}
+
+/*--blog--------------*/
+#blog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction; column;
+    padding: 40px;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+.blog-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.blog-heading span{
+    font-size: 2.4rem;
+    color: #0D2D52;
+    font-weight: 450;
+}
+.blog-heading h3{
+    font-size: 1rem;
+    color: #0D2D52; 
+    font-weight: 400;
+
+}
+.blog-heading .icon
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+}
+
+.caption {
+    font-size: 0.9em;
+    color: #555;
+    margin-top: 0.5em;
+    text-align: center;
+  }
+
+ 
+  /*-------CORONADO-------------*/
+#blog-post-6 {
+  display: flex;
+  gap: 40px;
+  max-width: 900px;
+  margin: 40px auto;          
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.coronado-thumbnail img {
+  width: 200px;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+  margin-right: 40px;
+}
+
+.coronado-text {
+  flex: 1;
+}
+
+.coronado-text h3 {
+  font-size: 1.5rem;
+  color: #0D2D52;
+  margin-bottom: 8px;
+}
+
+.coronado-text .date {
+  font-size: 0.9rem;
+  color: #888;
+  margin-bottom: 12px;
+}
+
+.coronado-text .preview {
+  font-size: 1rem;
+  color: #333;
+  line-height: 1.5;
+}
+
+.coronado-text h3:hover {
+  color: #f37021; /* new color on hover */
+}
+
+/*-----CORONADO PAGE------*/
+.coronado-blog-post {
+  font-family: 'Montserrat', sans-serif;
+  align-items: flex-start;
+  margin: 15px 75px;
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.coronado-blog-post h1 {
+  font-size: 3rem;
+  color: #0D2D52;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.coronado-blog-post .date {
+  font-size: 0.9rem;
+  color: #888;
+  text-align: left;
+}
+
+.coronado-blog-post p {
+  margin-bottom: 20px;
+}
+
+.coronado-image-1 img{
+  display: block;
+  width: 70%;
+  height: auto;
+  margin: 0 auto
+}
+
+.coronado-image-2 img{
+  display: block;
+  width: 70%;
+  height: auto;
+  margin: 0 auto 24px
+}
+
+.coronado-image-3 img{
+  display: block;
+  width: 60%;
+  height: auto;
+  margin: 0 auto
+}
+
+.coronado-image-4 img{
+  display: block;
+  width: 70%;
+  height: auto;
+  margin: 0 auto
+}
+
+.coronado-video-1 {
+  max-width: 640px;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.coronado-video-1 video {
+  width: 60%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.coronado-video-2 {
+  max-width: 640px;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.coronado-video-2 video {
+  width: 60%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.coronado-video-3 {
+  max-width: 640px;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.coronado-video-3 video {
+  width: 60%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.coronado-video-4 {
+  max-width: 640px;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.coronado-video-4 video {
+  width: 60%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+
+iframe {
+  display: block;
+  margin: 2rem auto;
+  max-width: 100%;
+}
+
+  /*-------BLUE SKY-------------*/
+#blog-post-5 {
+  display: flex;
+  gap: 40px;
+  max-width: 900px;
+  margin: 40px auto;          
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.blue-sky-thumbnail img {
+  width: 200px;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+  margin-right: 40px;
+}
+
+.blue-sky-text {
+  flex: 1;
+}
+
+.blue-sky-text h3 {
+  font-size: 1.5rem;
+  color: #0D2D52;
+  margin-bottom: 8px;
+}
+
+.blue-sky-text .date {
+  font-size: 0.9rem;
+  color: #888;
+  margin-bottom: 12px;
+}
+
+.blue-sky-text .preview {
+  font-size: 1rem;
+  color: #333;
+  line-height: 1.5;
+}
+
+.blue-sky-text h3:hover {
+  color: #f37021; /* new color on hover */
+}
+
+/*-------CATALINA--------------*/
+#blog-post-4 {
+  display: flex;
+  gap: 40px;
+  max-width: 900px;
+  margin: 40px auto;          
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.catalina-thumbnail img {
+  width: 200px;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+  margin-right: 40px;
+}
+
+.catalina-text {
+  flex: 1;
+}
+
+.catalina-text h3 {
+  font-size: 1.5rem;
+  color: #0D2D52;
+  margin-bottom: 8px;
+}
+
+.catalina-text .date {
+  font-size: 0.9rem;
+  color: #888;
+  margin-bottom: 12px;
+}
+
+.catalina-text .preview {
+  font-size: 1rem;
+  color: #333;
+  line-height: 1.5;
+}
+
+.catalina-text h3:hover {
+  color: #f37021; /* new color on hover */
+}
+
+/*-----BLUE SKY PAGE------*/
+.blue-sky-blog-post {
+  font-family: 'Montserrat', sans-serif;
+  align-items: flex-start;
+  margin: 15px 75px;
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.blue-sky-blog-post h1 {
+  font-size: 3rem;
+  color: #0D2D52;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.blue-sky-blog-post .date {
+  font-size: 0.9rem;
+  color: #888;
+  text-align: left;
+}
+
+.blue-sky-blog-post p {
+  margin-bottom: 20px;
+}
+
+.blue-sky-image-1 img{
+  display: block;
+  width: 70%;
+  height: auto;
+  margin: 0 auto
+}
+
+.blue-sky-image-2 img{
+  display: block;
+  width: 70%;
+  height: auto;
+  margin: 0 auto 24px
+}
+
+.blue-sky-image-3 img{
+  display: block;
+  width: 60%;
+  height: auto;
+  margin: 0 auto
+}
+
+.blue-sky-image-4 img{
+  display: block;
+  width: 70%;
+  height: auto;
+  margin: 0 auto
+}
+
+.blue-sky-image-5 img{
+  display: block;
+  width: 70%;
+  height: auto;
+  margin: 0 auto
+}
+
+.blue-sky-image-6 img{
+  display: block;
+  width: 60%;
+  height: auto;
+  margin: 10px auto
+}
+
+.blue-sky-image-7 img{
+  display: block;
+  width: 60%;
+  height: auto;
+  margin: 10px auto
+}
+
+.blue-sky-image-8 img{
+  display: block;
+  width: 60%;
+  height: auto;
+  margin: 10px auto
+}
+
+.blue-sky-image-9 img{
+  display: block;
+  width: 60%;
+  height: auto;
+  margin: 10px auto
+}
+
+iframe {
+  display: block;
+  margin: 2rem auto;
+  max-width: 100%;
+}
+
+/*-----CATALINA PAGE------*/
+.catalina-blog-post {
+  font-family: 'Montserrat', sans-serif;
+  align-items: flex-start;
+  margin: 15px 75px;
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.catalina-blog-post h1 {
+  font-size: 3rem;
+  color: #0D2D52;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.catalina-blog-post .date {
+  font-size: 0.9rem;
+  color: #888;
+  text-align: left;
+}
+
+.catalina-blog-post p {
+  margin-bottom: 20px;
+}
+
+.catalina-image-1 img{
+  display: block;
+  width: 70%;
+  height: auto;
+  margin: 0 auto
+}
+
+.catalina-image-2 img{
+  display: block;
+  width: 70%;
+  height: auto;
+  margin: 0 auto
+}
+
+.catalina-image-3 img{
+  display: block;
+  width: 60%;
+  height: auto;
+  margin: 0 auto
+}
+
+.catalina-image-4 img{
+  display: block;
+  width: 70%;
+  height: auto;
+  margin: 0 auto
+}
+
+.catalina-image-5 img{
+  display: block;
+  width: 70%;
+  height: auto;
+  margin: 0 auto
+}
+
+.catalina-image-6 img{
+  display: block;
+  width: 60%;
+  height: auto;
+  margin: 10px auto
+}
+
+.catalina-night-video {
+  max-width: 640px;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.catalina-night-video video {
+  width: 60%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.catalina-kyla-video {
+  max-width: 640px;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.catalina-kyla-video video {
+  width: 60%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.catalina-dolphin-video {
+  max-width: 640px;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.catalina-dolphin-video video {
+  width: 70%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+ 
+/*-------UNBOUND 100--------------*/
+#blog-post-7 {
+  display: flex;
+  gap: 40px;
+  max-width: 900px;
+  margin: 40px auto;          
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.unbound-thumbnail img {
+  width: 200px;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+  margin-right: 40px;
+}
+
+.unbound-text {
+  flex: 1;
+}
+
+.unboubd-text h3 {
+  font-size: 1.5rem;
+  color: #0D2D52;
+  margin-bottom: 8px;
+}
+
+.unbound-text .date {
+  font-size: 0.9rem;
+  color: #888;
+  margin-bottom: 12px;
+}
+
+.unbound-text .preview {
+  font-size: 1rem;
+  color: #333;
+  line-height: 1.5;
+}
+
+.unbound-text h3:hover {
+  color: #f37021; /* new color on hover */
+}
+
+
+/*-----UNBOUND PAGE------*/
+.unbound-blog-post {
+  font-family: 'Montserrat', sans-serif;
+  align-items: flex-start;
+  margin: 15px 75px;
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.unbound-blog-post h1 {
+  font-size: 3rem;
+  color: #0D2D52;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.unbound-blog-post .date {
+  font-size: 0.9rem;
+  color: #888;
+  text-align: left;
+}
+
+.unbound-blog-post p {
+  margin-bottom: 20px;
+}
+
+.unbound-image-1 img{
+  display: block;
+  width: 70%;
+  height: auto;
+  margin: 0 auto
+}
+
+.unbound-image-2 img{
+  display: block;
+  width: 70%;
+  height: auto;
+  margin: 0 auto
+}
+
+.unbound-image-3 img{
+  display: block;
+  width: 60%;
+  height: auto;
+  margin: 10px auto
+}
+
+.unbound-image-4 img{
+  display: block;
+  width: 70%;
+  height: auto;
+  margin: 0 auto
+}
+
+.unbound-image-5 img{
+  display: block;
+  width: 70%;
+  height: auto;
+  margin: 0 auto
+}
+
+.unbound-image-6 img{
+  display: block;
+  width: 60%;
+  height: auto;
+  margin: 10px auto
+}
+
+.unbound-image-7 img{
+  display: block;
+  width: 60%;
+  height: auto;
+  margin: 10px auto
+}
+
+/*-------BAK--------------*/
+  #blog-post-3 {
+    display: flex;
+    gap: 40px;
+    max-width: 900px;
+    margin: 40px auto;          
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .bak-thumbnail img {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+    margin-right: 40px;
+  }
+  
+  .bak-text {
+    flex: 1;
+  }
+  
+  .bak-text h3 {
+    font-size: 1.5rem;
+    color: #0D2D52;
+    margin-bottom: 8px;
+  }
+  
+  .bak-text .date {
+    font-size: 0.9rem;
+    color: #888;
+    margin-bottom: 12px;
+  }
+  
+  .bak-text .preview {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.5;
+  }
+
+  .bak-text h3:hover {
+    color: #f37021; /* new color on hover */
+  }
+
+
+  /*-----BAK PAGE------*/
+  .bak-blog-post {
+    font-family: 'Montserrat', sans-serif;
+    align-items: flex-start;
+    margin: 15px 75px;
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 20px;
+  }
+
+  .bak-blog-post h1 {
+    font-size: 3rem;
+    color: #0D2D52;
+    margin-bottom: 8px;
+    text-align: center;
+  }
+
+  .bak-blog-post .date {
+    font-size: 0.9rem;
+    color: #888;
+    text-align: left;
+  }
+
+  .bak-blog-post p {
+    margin-bottom: 20px;
+  }
+
+  .bak-image-1 img{
+    display: block;
+    width: 70%;
+    height: auto;
+    margin: 0 auto
+  }
+
+  .bak-image-2 img{
+    display: block;
+    width: 70%;
+    height: auto;
+    margin: 0 auto
+  }
+
+  .bak-image-3 img{
+    display: block;
+    width: 70%;
+    height: auto;
+    margin: 0 auto
+  }
+
+  .bak-image-4 img{
+    display: block;
+    width: 70%;
+    height: auto;
+    margin: 0 auto
+  }
+
+  .bak-image-5 img{
+    display: block;
+    width: 70%;
+    height: auto;
+    margin: 15px auto
+  }
+
+  .bak-image-6 img{
+    display: block;
+    width: 70%;
+    height: auto;
+    margin: 0 auto
+  }
+
+  .bak-image-7 img{
+    display: block;
+    width: 70%;
+    height: auto;
+    margin: 0 auto
+  }
+
+  .bak-image-8 img{
+    display: block;
+    width: 70%;
+    height: auto;
+    margin: 0 auto
+  }
+
+  .bak-image-9 img{
+    display: block;
+    width: 70%;
+    height: auto;
+    margin: 0 auto
+  }
+
+  .bak-image-10 img{
+    display: block;
+    width: 70%;
+    height: auto;
+    margin: 0 auto
+  }
+
+  .bak-image-11 img{
+    display: block;
+    width: 70%;
+    height: auto;
+    margin: 0 auto
+  }
+
+  .bak-image-12 img{
+    display: block;
+    width: 70%;
+    height: auto;
+    margin: 0 auto
+  }
+
+  .bak-image-13 img{
+    display: block;
+    width: 70%;
+    height: auto;
+    margin: 0 auto
+  }
+
+  .bak-image-14 img{
+    display: block;
+    width: 70%;
+    height: auto;
+    margin: 0 auto
+  }
+
+  .bak-image-15 img{
+    display: block;
+    width: 70%;
+    height: auto;
+    margin: 0 auto
+  }
+
+  .bak-image-16 img{
+    display: block;
+    width: 70%;
+    height: auto;
+    margin: 0 auto
+  }
+
+  .bak-image-17 img{
+    display: block;
+    width: 70%;
+    height: auto;
+    margin: 0 auto
+  }
+
+  .bak-image-18 img{
+    display: block;
+    width: 70%;
+    height: auto;
+    margin: 0 auto
+  }
+
+  .bak-image-19 img{
+    display: block;
+    width: 70%;
+    height: auto;
+    margin: 0 auto
+  }
+
+  .bak-image-20 img{
+    display: block;
+    width: 70%;
+    height: auto;
+    margin: 0 auto
+  }
+
+  .bak-image-21 img{
+    display: block;
+    width: 70%;
+    height: auto;
+    margin: 0 auto
+  }
+
+  .bak-image-22 img{
+    display: block;
+    width: 70%;
+    height: auto;
+    margin: 0 auto
+  }
+
+  .bak-image-23 img{
+    display: block;
+    width: 70%;
+    height: auto;
+    margin: 0 auto
+  }
+
+  .bak-image-24 img{
+    display: block;
+    width: 70%;
+    height: auto;
+    margin: 0 auto
+  }
+
+  .bak-image-25 img{
+    display: block;
+    width: 70%;
+    height: auto;
+    margin: 0 auto
+  }
+
+  .bak-image-26 img{
+    display: block;
+    width: 70%;
+    height: auto;
+    margin: 0 auto
+  }
+
+  .bak-image-27 img{
+    display: block;
+    width: 70%;
+    height: auto;
+    margin: 0 auto
+  }
+
+  .bak-image-28 img{
+    display: block;
+    width: 70%;
+    height: auto;
+    margin: 0 auto
+  }
+
+  .bak-image-29 img{
+    display: block;
+    width: 70%;
+    height: auto;
+    margin: 0 auto
+  }
+
+  .bak-image-30 img{
+    display: block;
+    width: 70%;
+    height: auto;
+    margin: 0 auto
+  }
+
+  .bak-image-31 img{
+    display: block;
+    width: 70%;
+    height: auto;
+    margin: 0 auto
+  }
+
+  .bak-image-32 img{
+    display: block;
+    width: 70%;
+    height: auto;
+    margin: 0 auto
+  }
+
+  .bak-video {
+    max-width: 640px;
+    margin: 2rem auto;
+    text-align: center;
+  }
+
+  .bak-video video {
+    width: 60%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  }
+
+  .sunrise-video {
+    max-width: 640px;
+    margin: 2rem auto;
+    text-align: center;
+  }
+
+  .sunrise-video video {
+    width: 60%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  }
+
+  /*-------20 BRIDGES-------*/
+
+  #blog-post-2 {
+    display: flex;
+    gap: 40px;
+    max-width: 900px;
+    margin: 40px auto;          
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .twenty-bridges-thumbnail img {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+    margin-right: 40px;
+  }
+  
+  .twenty-bridges-text {
+    flex: 1;
+  }
+  
+  .twenty-bridges-text h3 {
+    font-size: 1.5rem;
+    color: #0D2D52;
+    margin-bottom: 8px;
+  }
+  
+  .twenty-bridges-text .date {
+    font-size: 0.9rem;
+    color: #888;
+    margin-bottom: 12px;
+  }
+  
+  .twenty-bridges-text .preview {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.5;
+  }
+
+  .twenty-bridges-text h3:hover {
+    color: #f37021; /* new color on hover */
+  }
+
+  /*-----TWENTY BRIDGES PAGE------*/
+  .twenty-bridges-blog-post {
+    font-family: 'Montserrat', sans-serif;
+    align-items: flex-start;
+    margin: 15px 75px;
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 20px;
+  }
+
+  .twenty-bridges-blog-post h1 {
+    font-size: 3rem;
+    color: #0D2D52;
+    margin-bottom: 8px;
+    text-align: center;
+  }
+
+  .twenty-bridges-blog-post .date {
+    font-size: 0.9rem;
+    color: #888;
+    text-align: left;
+  }
+
+  .twenty-bridges-blog-post p {
+    margin-bottom: 20px;
+  }
+
+  .twenty-bridges-image-1 img{
+    display: block;
+    width: 70%;
+    height: auto;
+    margin: 0 auto
+  }
+
+  .twenty-bridges-image-2 img{
+    display: block;
+    width: 70%;
+    height: auto;
+    margin: 0 auto
+  }
+
+  .twenty-bridges-image-3 img{
+    display: block;
+    width: 90%;
+    height: auto;
+    margin: 0 auto
+  }
+
+  .twenty-bridges-image-4 img{
+    display: block;
+    width: 70%;
+    height: auto;
+    margin: 0 auto
+  }
+
+  .twenty-bridges-image-5 img{
+    display: block;
+    width: 70%;
+    height: auto;
+    margin: 0 auto
+  }
+
+  .twenty-bridges-image-6 img{
+    display: block;
+    width: 60%;
+    height: auto;
+    margin: 10px auto
+  }
+
+  .twenty-bridges-image-7 img{
+    display: block;
+    width: 70%;
+    height: auto;
+    margin: 0 auto
+  }
+
+  .twenty-bridges-image-8 img{
+    display: block;
+    width: 70%;
+    height: auto;
+    margin: 0 auto
+  }
+
+  .twenty-bridges-finish-video {
+    max-width: 640px;
+    margin: 2rem auto;
+    text-align: center;
+  }
+
+  .twenty-bridges-finish-video video {
+    width: 60%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  }
+
+  
+  /*------LAKE TAHOE------*/
+
+  #blog-post-1 {
+    display: flex;
+    gap: 40px;
+    max-width: 900px;
+    margin: 40px auto;          
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .lake-tahoe-thumbnail img {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+    margin-right: 40px;
+  }
+  
+  .lake-tahoe-text {
+    flex: 1;
+  }
+  
+  .lake-tahoe-text h3 {
+    font-size: 1.5rem;
+    color: #0D2D52;
+    margin-bottom: 8px;
+  }
+  
+  .lake-tahoe-text .date {
+    font-size: 0.9rem;
+    color: #888;
+    margin-bottom: 12px;
+  }
+  
+  .lake-tahoe-text .preview {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.5;
+  }
+
+  .lake-tahoe-text h3:hover {
+    color: #f37021; /* new color on hover */
+  }
+  
+
+  /*------LAKE TAHOE PAGE----------*/
+
+  .lake-tahoe-blog-post {
+    font-family: 'Montserrat', sans-serif;
+    align-items: flex-start;
+    margin: 15px 75px;
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 20px;
+  }
+
+  .lake-tahoe-blog-post h1 {
+    font-size: 3rem;
+    color: #0D2D52;
+    margin-bottom: 8px;
+    text-align: center;
+  }
+
+  .lake-tahoe-blog-post .date {
+    font-size: 0.9rem;
+    color: #888;
+    text-align: left;
+  }
+
+  .lake-tahoe-blog-post p {
+    margin-bottom: 20px;
+  }
+
+  .lake-tahoe-image-1 img{
+    display: block;
+    width: 70%;
+    height: auto;
+    margin: 0 auto
+  }
+
+  .lake-tahoe-image-2 img{
+    display: block;
+    width: 35%;
+    height: auto;
+    margin: 0 auto
+  }
+
+  .lake-tahoe-image-3 img{
+    display: block;
+    width: 60%;
+    height: auto;
+    margin: 0 auto
+  }
+
+  .lake-tahoe-image-4 img{
+    display: block;
+    width: 35%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .night-swimming-video {
+    max-width: 640px;
+    margin: 2rem auto;
+    text-align: center;
+  }
+  
+  .night-swimming-video video {
+    width: 60%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  }
+
+  .lake-tahoe-image-5 img{
+    display: block;
+    width: 35%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .lake-tahoe-image-6 img{
+    display: block;
+    width: 35%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .lake-tahoe-image-7 img{
+    display: block;
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .lake-tahoe-image-8 img{
+    display: block;
+    width: 60%;
+    height: auto;
+    margin: 10px auto;
+  }
+
+  .lake-tahoe-image-9 img{
+    display: block;
+    width: 60%;
+    height: auto;
+    margin: 10px auto;
+  }
+
+  .lake-tahoe-image-10 img{
+    display: block;
+    width: 60%;
+    height: auto;
+    margin: 10px auto;
+  }
+
+  .lake-tahoe-image-11 img{
+    display: block;
+    width: 60%;
+    height: auto;
+    margin: 10px auto;
+  }
+
+  .lake-tahoe-image-12 img{
+    display: block;
+    width: 60%;
+    height: auto;
+    margin: 10px auto;
+  }
